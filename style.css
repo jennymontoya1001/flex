@@ -1,0 +1,46 @@
+/*Flexbox(caja flexible) permite que las cajas sean flexibles,
+es un valor de la propiedad display
+
+display flex y display inline-flex
+
+contenedor flex (flex container)
+flex item (flex hijos)
+las cajas flexibles son los hijos
+
+2 ejes
+principal es horizontal y de izquierda a derecha
+secundario vertical y de arriba abajo*/
+
+.flex-container{
+   background-color: #FCA17D;
+   height: 400px;
+   display: flex;
+   margin-bottom: 1em;
+   flex-wrap: wrap /*elementos salten de línea*/;
+   align-content: stretch;
+}
+
+.flex-item{
+    width: 100px;
+    height: 30px;
+    margin: 0.5em;
+    line-height: 30px;/*alto de línea para centrar el contenido*/
+    color: aliceblue;
+    text-align: center;
+    background-color: #9A348E;
+}
+
+.box{
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.box img{
+  max-width: 50%;
+}
+
+.prices{
+    display: flex;
+}
